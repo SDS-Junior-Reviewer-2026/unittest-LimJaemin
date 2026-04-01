@@ -42,4 +42,10 @@ class CalculatorTest {
         int result = calculator.multiply(3, -4);
         assertThat(result).isEqualTo(-12);
     }
+
+    @Test
+    void divide() {
+        int result = calculator.divide(6, 2);
+        assertThat(result).isEqualTo(3);
+    }
 }
